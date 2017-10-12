@@ -1,8 +1,7 @@
 import React from 'react';
 
 // This is a stateless functional component => does not manage state and does not have access to 'this'
-const Option = (props) => {
-  return (
+const Option = (props) => (
     <div>
       {props.optionText}
       <button
@@ -14,6 +13,5 @@ const Option = (props) => {
       </button>
     </div>
   );
-};
 
 export default Option;
