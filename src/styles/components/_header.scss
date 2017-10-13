@@ -1,0 +1,19 @@
+.header {
+  background: $off-black;
+  color: white;
+  margin-bottom: $xl-size; //48px
+  padding: $m-size 0;
+}
+
+//BEM Block Element Modifier -> Looks for a title within the header class
+.header__title {
+  font-size: $l-size;
+  margin: 0;
+}
+
+.header__subtitle {
+  color: $off-white;
+  font-size: $m-size; //16px
+  font-weight: 500;
+  margin: 0;
+}
